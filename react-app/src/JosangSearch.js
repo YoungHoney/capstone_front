@@ -401,7 +401,7 @@ function JosangSearch() {
      {selectedButton1 === '- 반남박씨' && (
         <div style={containerStyle2}>
           {buttons1.map((a, index1) => (
-            <Link to={`/ancestor/real/${a}`} key={index1}>
+            <Link to={`/aancestor/real/${a}`} key={index1}>
             <button style={buttonStyle2}>
               {a}
             </button>

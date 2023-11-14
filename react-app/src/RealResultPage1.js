@@ -294,7 +294,7 @@ const ConvertButton = () => {
        조상님과 대화하기
       </button>
    
-      <Link to="/ancestor/virtual/박세채(朴世采)">
+      <Link to="/api/ancestor/virtual/박세채(朴世采)">
       <button
         style={{
           position: 'fixed',

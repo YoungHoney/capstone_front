@@ -55,7 +55,7 @@ function SearchContainer() {
 
   const handleSearchClick = () => {
     
-    navigate(`/ancestor/real/${searchText}`);
+    navigate(`/aancestor/real/${searchText}`);
 
   };
 

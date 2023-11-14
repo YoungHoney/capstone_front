@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/ancestor',
     createProxyMiddleware({
-      target: 'http://3.39.127.44:8080',
+      target: 'http://localhost:8080',
       changeOrigin: true,
     })
   );
@@ -13,7 +13,7 @@ module.exports = function(app) {
   app.use(
     '/1/api/chat',
     createProxyMiddleware({
-      target: 'http://3.39.127.44:8080',
+      target: 'http://localhost:8080',
       changeOrigin: true,
     })
   );
