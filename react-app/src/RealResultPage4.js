@@ -5,7 +5,7 @@ import History4 from './history4';
 import Name4 from './Demoname4';
 import { Link } from 'react-router-dom';
 import 이산해 from './img/이산해.png'
-
+import Definition4 from './Demodefinition4';
 import SimpleIntroduction4 from './simpleintroduction4';
 import axios from 'axios';
 
@@ -325,6 +325,7 @@ function RealResultPage4() {
 
     
     <Name4></Name4>
+    <Definition4></Definition4>
     <div style={horizontal}>
     <img style={{ }} src={이산해} width='300px' height='400px'/>
     <SimpleIntroduction4></SimpleIntroduction4>

@@ -40,6 +40,7 @@ const History3 = () => {
           margin: '0', // 텍스트와 컨테이너 사이의 간격을 없애기 위해 margin을 0으로 설정
           padding: '20px',
           lineHeight: '1.5',
+          whiteSpace: 'pre-wrap',
         };
       
         return (

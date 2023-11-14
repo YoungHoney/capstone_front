@@ -1,4 +1,4 @@
-import mbti1 from './img/INTJ.png'
+import isfj from './img/isfj.jpeg'
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -39,7 +39,7 @@ function Mbti1() {
 
   const nameStyle1 = {
 
-    fontSize: '100px',
+    fontSize: '70px',
     fontWeight: 'bold',
     color: '#333',
     margin: '20px 0',// 텍스트와 컨테이너 사이의 간격을 없애기 위해 margin을 0으로 설정
@@ -64,6 +64,11 @@ function Mbti1() {
     <div className="Mbti1">
      <br></br>
      <br></br>
+     <div style={{ textAlign: 'center' }}>
+      <img style={{ }} src={isfj} width='300px' height='300px'/>
+      </div>
+      <br></br>
+      <br></br>
       <div style={{ textAlign: 'center' }}>
       {jsondata && jsondata.mbti && (
 <span style={nameStyle1}>{jsondata.mbti}</span>

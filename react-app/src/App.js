@@ -12,7 +12,9 @@ import VirtualResultPage3 from './VirtualResultPage3';
 import RealResultPage4 from './RealResultPage4';
 import VirtualResultPage4 from './VirtualResultPage4';
 
-
+const NotFound = () => {
+  return <h1>404 - Not Found</h1>;
+};
 
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" style={{ textDecoration: 'none',color: 'black', fontWeight: 'bold' }}>Home</Link>
               
 
             </li>
@@ -42,6 +44,11 @@ function App() {
           <Route  exact path="/ancestor/virtual/권응수(權應銖)" element={<VirtualResultPage3/>} />
           <Route  exact path="/ancestor/real/이산해(李山海)" element={<RealResultPage4/>} />
           <Route  exact path="/ancestor/virtual/이산해(李山海)" element={<VirtualResultPage4/>} />
+          <Route  exact path="/ancestor/real/박세채" element={<RealResultPage1/>} />
+          <Route  exact path="/ancestor/real/김상익" element={<RealResultPage2/>} />
+          <Route  exact path="/ancestor/real/권응수" element={<RealResultPage3/>} />
+          <Route  exact path="/ancestor/real/이산해" element={<RealResultPage4/>} />
+          <Route path="*" element={<NotFound />} />
   </Routes>
       </div>
     

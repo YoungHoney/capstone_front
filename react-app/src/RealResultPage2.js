@@ -5,7 +5,7 @@ import History2 from './history2';
 import Name2 from './Demoname2';
 import { Link } from 'react-router-dom';
 import 김상익 from './img/김상익.png'
-
+import Definition2 from './Demodefinition2';
 import SimpleIntroduction2 from './simpleintroduction2';
 import axios from 'axios';
 
@@ -325,6 +325,7 @@ function RealResultPage2() {
 
     
     <Name2></Name2>
+    <Definition2></Definition2>
     <div style={horizontal}>
     <img style={{ }} src={김상익} width='300px' height='400px'/>
     <SimpleIntroduction2></SimpleIntroduction2>

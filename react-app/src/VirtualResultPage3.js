@@ -2,9 +2,9 @@ import Name3 from './Demoname3';
 import { Link } from 'react-router-dom';
 import TodayCharacter3 from './TodayCharacter3';
 import Mbti3 from './mbti3';
-
+import Definition3 from './Demodefinition3';
 import React, { useState } from 'react';
-import 권응수 from './img/권응수.png'
+
 
 const buttonStyle = {
   display: 'flex',
@@ -155,6 +155,7 @@ function VirtualResultPage3() {
       
       
       <Name3></Name3>
+      <Definition3></Definition3>
       
       <ExpandableComponent1   ></ExpandableComponent1>
     

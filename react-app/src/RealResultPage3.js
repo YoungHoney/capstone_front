@@ -5,7 +5,7 @@ import History3 from './history3';
 import Name3 from './Demoname3';
 import { Link } from 'react-router-dom';
 import 권응수 from './img/권응수.png'
-
+import Definition3 from './Demodefinition3';
 import SimpleIntroduction3 from './simpleintroduction3';
 import axios from 'axios';
 
@@ -325,6 +325,7 @@ function RealResultPage3() {
 
     
     <Name3></Name3>
+    <Definition3></Definition3>
     <div style={horizontal}>
     <img style={{ }} src={권응수} width='300px' height='400px'/>
     <SimpleIntroduction3></SimpleIntroduction3>

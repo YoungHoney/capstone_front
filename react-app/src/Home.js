@@ -86,10 +86,10 @@ function SearchContainer() {
 function MyComponent() {
   return (
     <div style={containerStyle}>
-      <div style={textStyle}>우리 조상 알기</div>
+      <div style={textStyle}>본관별 조상 찾기</div>
       <Link to="/JosangSearch">
         <button style={buttonStyle} >
-        버튼모양
+        바로가기
       </button>
       </Link>
       
@@ -139,7 +139,7 @@ const buttonStyle = {
 function Home() {
   return (
     <div className="Home">
-     <div style={{ fontSize: '35px', textAlign: 'center', marginTop: '30px', fontWeight: 'bold'  }}>본관별 조상 찾기</div>
+     <div style={{ fontSize: '35px', textAlign: 'center', marginTop: '30px', fontWeight: 'bold'  }}>우리 조상 알기</div>
      <MyComponent></MyComponent>
      <SearchContainer></SearchContainer>
      

@@ -5,6 +5,8 @@ import History1 from './history1';
 import Name1 from './Demoname1';
 import { Link } from 'react-router-dom';
 import 박세채 from './img/박세채.png'
+import Definition1 from './Demodefinition1';
+import { useNavigate } from 'react-router-dom';
 
 import SimpleIntroduction1 from './simpleintroduction1';
 import axios from 'axios';
@@ -246,6 +248,16 @@ function ExpandableComponent3() {
 
 
 const ConvertButton = () => {
+
+  
+
+  const handleButtonClick = () => {
+    window.location.href = 'http://3.39.127.44:8080/1/api/chat';
+    scrollToTop();
+  };
+
+ 
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -262,7 +274,7 @@ const ConvertButton = () => {
 
   return (
     <div>
-      
+    
       <button
         style={{
           position: 'fixed',
@@ -277,10 +289,11 @@ const ConvertButton = () => {
           cursor: 'pointer',
           
         }}
-        onClick={scrollToTop}
+        onClick={ handleButtonClick}
       >
        조상님과 대화하기
       </button>
+   
       <Link to="/ancestor/virtual/박세채(朴世采)">
       <button
         style={{
@@ -325,6 +338,7 @@ function RealResultPage1() {
 
     
     <Name1></Name1>
+    <Definition1></Definition1>
     <div style={horizontal}>
     <img style={{ }} src={박세채} width='300px' height='400px'/>
     <SimpleIntroduction1></SimpleIntroduction1>
