@@ -56,7 +56,7 @@ const Timeline3 = () => {
         <div style={{ fontSize: '14px' }}>
       1590년
     </div>
-          <p>조선통신사파견</p>
+          <p>통신사파견</p>
         </div>
       </div>
       <div className="mainvertical-line four3">

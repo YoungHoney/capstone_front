@@ -159,9 +159,9 @@ const containerStyle3 = {
 };
 
 const buttonStyle3 = {
-  width: '120px',
+  width: '150px',
   height: '20px',
-  margin: '0px',
+  margin: '3px',
   backgroundColor: '#F0F0F0',
   color: 'black',
   border: 'none',

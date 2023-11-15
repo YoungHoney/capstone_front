@@ -48,6 +48,8 @@ const SimpleIntroduction1 = () => {
 
 const allcontainerStyle = {
  marginLeft:'20px',
+ display: 'grid',
+  justifyContent: 'center',
 };
 
 const containerStyle = {

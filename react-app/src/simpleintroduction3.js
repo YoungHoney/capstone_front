@@ -47,8 +47,10 @@ const SimpleIntroduction3 = () => {
 };
 
 const allcontainerStyle = {
- marginLeft:'20px',
-};
+  marginLeft:'20px',
+  display: 'grid',
+   justifyContent: 'center',
+ };
 
 const containerStyle = {
   display: 'flex',
