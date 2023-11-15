@@ -301,9 +301,6 @@ function ExpandableComponent3() {
 
 
 const ConvertButton = () => {
-
-  
-
   const handleButtonClick = () => {
     window.location.href = 'http://3.39.127.44:8080/api/ancestor/1/chat';
     scrollToTop();
@@ -340,6 +337,7 @@ const ConvertButton = () => {
           border: 'none',
           borderRadius: '5px',
           cursor: 'pointer',
+          
           
         }}
         onClick={ handleButtonClick}
