@@ -113,6 +113,13 @@ function ExpandableComponent3() {
 
 
 const ConvertButton = () => {
+  const handleButtonClick = () => {
+    window.location.href = 'http://3.39.127.44:8080/api/ancestor/3/chat';
+    scrollToTop();
+  };
+
+ 
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -129,7 +136,7 @@ const ConvertButton = () => {
 
   return (
     <div>
-      
+    
       <button
         style={{
           position: 'fixed',
@@ -144,7 +151,7 @@ const ConvertButton = () => {
           cursor: 'pointer',
           
         }}
-        onClick={scrollToTop}
+        onClick={ handleButtonClick}
       >
        조상님과 대화하기
       </button>
