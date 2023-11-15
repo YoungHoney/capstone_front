@@ -369,7 +369,7 @@ function RealResultPage3() {
 
   const horizontal = {
     display: 'flex',
-    marginLeft: '150px', // Flexbox 사용
+    justifyContent: 'center', // Flexbox 사용
   };
 
   return (

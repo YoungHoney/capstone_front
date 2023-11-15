@@ -37,7 +37,8 @@ function SearchContainer() {
   
   const buttonStyle = {
     marginLeft: '10px',
-  padding: '10px 10px',
+  padding: '14px 14px',
+  
   background: 'black',
   color: 'white',
   border: 'none',
@@ -76,7 +77,7 @@ function SearchContainer() {
         style={inputStyle}
       />
       <button onClick={handleSearchClick} style={buttonStyle}>
-        검색버튼
+        검색
       </button>
     </div>
   );
@@ -120,7 +121,7 @@ const textStyle = {
 
 const buttonStyle = {
   marginLeft: '20px',
-  padding: '10px 10px',
+  padding: '14px 14px',
   background: 'black',
   color: 'white',
   border: 'none',

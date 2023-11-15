@@ -56,7 +56,7 @@ const Timeline4 = () => {
         <div style={{ fontSize: '14px' }}>
       1587년
     </div>
-          <p>왜군 전라도침입</p>
+          <p>왜구침입</p>
         </div>
       </div>
       <div className="mainvertical-line four4">
