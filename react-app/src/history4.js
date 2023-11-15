@@ -11,7 +11,7 @@ const History4 = () => {
 
 
     useEffect(() => {
-        axios.get('/ancestor/4')
+        axios.get('/api/ancestor/4')
           .then((response) => {
             const jsondata = response.data;
             setJsonData(jsondata);

@@ -4,7 +4,8 @@ import TodayCharacter1 from './TodayCharacter1';
 import Mbti1 from './mbti1';
 import Definition1 from './Demodefinition1';
 import React, { useState } from 'react';
-
+import RadarChart from 'react-svg-radar-chart';
+import RadarChartExample1 from './abilitygraph1';
 
 const buttonStyle = {
   display: 'flex',
@@ -84,6 +85,38 @@ function ExpandableComponent2() {
 
 
 
+function ExpandableComponent3() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  return (
+    <div >
+      <button onClick={toggleExpand} style={buttonStyle}>
+      <span style={{ fontSize: '24px',}}>오각형능력치는?</span>
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          style={arrowStyle(isExpanded)}
+        >
+          <path d={isExpanded ? "M1 8L8 1L15 8" : "M1 8L8 15L15 8"} />
+        </svg>
+      </button>
+      {isExpanded && <div style={{ marginTop: '20px' }}><RadarChartExample1 /></div>}
+    </div>
+  );
+}
+
+
+
+
+
+
 const ConvertButton = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -120,12 +153,12 @@ const ConvertButton = () => {
       >
        조상님과 대화하기
       </button>
-      <Link to="/aancestor/real/박세채(朴世采)">
+      <Link to="/ancestor/real/박세채(朴世采)">
       <button
         style={{
           position: 'fixed',
           bottom: '20px',
-          right: '90px',
+          left: '20px',
           padding: '10px',
           fontSize: '16px',
           backgroundColor: '#333',
@@ -133,7 +166,7 @@ const ConvertButton = () => {
           border: 'none',
           borderRadius: '5px',
           cursor: 'pointer',
-          marginRight: '70px',
+          
         }}
         onClick={scrollToBottom}
       >
@@ -159,6 +192,8 @@ function VirtualResultPage1() {
       <ExpandableComponent1   ></ExpandableComponent1>
     
       <ExpandableComponent2></ExpandableComponent2>
+
+      <ExpandableComponent3></ExpandableComponent3>
   
       
       <br></br>

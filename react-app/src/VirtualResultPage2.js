@@ -4,7 +4,7 @@ import TodayCharacter2 from './TodayCharacter2';
 import Mbti2 from './mbti2';
 import Definition2 from './Demodefinition2';
 import React, { useState } from 'react';
-
+import RadarChartExample2 from './abilitygraph2';
 
 const buttonStyle = {
   display: 'flex',
@@ -83,6 +83,34 @@ function ExpandableComponent2() {
 }
 
 
+function ExpandableComponent3() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  return (
+    <div >
+      <button onClick={toggleExpand} style={buttonStyle}>
+      <span style={{ fontSize: '24px',}}>오각형능력치는?</span>
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          style={arrowStyle(isExpanded)}
+        >
+          <path d={isExpanded ? "M1 8L8 1L15 8" : "M1 8L8 15L15 8"} />
+        </svg>
+      </button>
+      {isExpanded && <div style={{ marginTop: '20px' }}><RadarChartExample2 /></div>}
+    </div>
+  );
+}
+
+
 
 const ConvertButton = () => {
   const scrollToTop = () => {
@@ -125,7 +153,7 @@ const ConvertButton = () => {
         style={{
           position: 'fixed',
           bottom: '20px',
-          right: '90px',
+          left: '20px',
           padding: '10px',
           fontSize: '16px',
           backgroundColor: '#333',
@@ -133,7 +161,7 @@ const ConvertButton = () => {
           border: 'none',
           borderRadius: '5px',
           cursor: 'pointer',
-          marginRight: '70px',
+         
         }}
         onClick={scrollToBottom}
       >
@@ -160,6 +188,8 @@ function VirtualResultPage2() {
       <ExpandableComponent1   ></ExpandableComponent1>
     
       <ExpandableComponent2></ExpandableComponent2>
+
+      <ExpandableComponent3></ExpandableComponent3>
   
       
       <br></br>

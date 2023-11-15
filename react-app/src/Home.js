@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import JosangSearch from './JosangSearch';
 import { Route,Routes,Router, BrowserRouter } from 'react-router-dom';
-
+import MyBarChart from './abilitychart';
 
 function SearchContainer() {
 
@@ -55,7 +55,7 @@ function SearchContainer() {
 
   const handleSearchClick = () => {
     
-    navigate(`/aancestor/real/${searchText}`);
+    navigate(`/ancestor/real/${searchText}`);
 
   };
 
@@ -140,10 +140,12 @@ function Home() {
   return (
     <div className="Home">
      <div style={{ fontSize: '35px', textAlign: 'center', marginTop: '30px', fontWeight: 'bold'  }}>우리 조상 알기</div>
+    
      <MyComponent></MyComponent>
      <SearchContainer></SearchContainer>
      
-    
+     
+
     </div>
     
   );

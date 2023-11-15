@@ -82,130 +82,182 @@ function ExpandableComponent2() {
   });
   
 
-function FlowChart2() {
+  function FlowChart2() {
 
-  const [jsondata, setJsonData] = useState(null);
+    const [jsondata, setJsonData] = useState(null);
+    const [leftValue1, setLeftValue1] = useState('');
+    const [rightValue1, setRightValue1] = useState('');
+    const [leftValue2, setLeftValue2] = useState('');
+    const [rightValue2, setRightValue2] = useState('');
+    const [leftValue3, setLeftValue3] = useState('');
+    const [rightValue3, setRightValue3] = useState('');
+    const [leftValue4, setLeftValue4] = useState('');
+    const [rightValue4, setRightValue4] = useState('');
+    const [leftValue5, setLeftValue5] = useState('');
+    const [rightValue5, setRightValue5] = useState('');
+    
    
-
-  useEffect(() => {
-      axios.get('/ancestor/2')
-        .then((response) => {
-          const jsondata = response.data;
-          setJsonData(jsondata);
-        })
-        .catch((error) => {
-          console.error('JSON 데이터를 가져오는 동안 오류가 발생했습니다: ', error);
-        });
-    }, []);
-
-
-  return (
-    <div style={containerStyle}>
-      <div style={groupContainerStyle}>
-      <div style={circleStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
-  <span>{jsondata.govSequence[1]}</span>
-)}</div>
-        <div style={rectStyle}>품계1</div> 
-      </div>
-      <div style={arrowContainerStyle}>
-  <svg width="100" height="100">
-    <line x1="0" y1="90" x2="100" y2="90" stroke="black" />
-    <polygon points="95,85 100,90 95,95" fill="black" />
-  </svg>
-</div>
-
-      <div style={groupContainerStyle}>
-        <div style={circleStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[2] && (
-  <span>{jsondata.govSequence[2]}</span>
-)}</div>
-        <div style={rectStyle}>품계2</div>
+  
+    useEffect(() => {
+        axios.get('/api/ancestor/2')
+          .then((response) => {
+            const jsondata = response.data;
+            setJsonData(jsondata);
+          })
+          .catch((error) => {
+            console.error('JSON 데이터를 가져오는 동안 오류가 발생했습니다: ', error);
+          });
+      }, []);
+  
+      
+      useEffect(() => {
+        if (jsondata && jsondata.govSequence && jsondata.govSequence[1]) {
+          const govSequenceString1 = jsondata.govSequence[1];
+          const splittedValues1 = govSequenceString1.split(',');
+          const govSequenceString2 = jsondata.govSequence[2];
+          const splittedValues2 = govSequenceString2.split(',');
+          const govSequenceString3 = jsondata.govSequence[3];
+          const splittedValues3 = govSequenceString3.split(',');
+          const govSequenceString4 = jsondata.govSequence[4];
+          const splittedValues4 = govSequenceString4.split(',');
+          const govSequenceString5 = jsondata.govSequence[5];
+          const splittedValues5 = govSequenceString5.split(',');
+          
+    
+          setLeftValue1(splittedValues1[0] || '');
+          setRightValue1(splittedValues1[1] || '');
+          setLeftValue2(splittedValues2[0] || '');
+          setRightValue2(splittedValues2[1] || '');
+          setLeftValue3(splittedValues3[0] || '');
+          setRightValue3(splittedValues3[1] || '');
+          setLeftValue4(splittedValues4[0] || '');
+          setRightValue4(splittedValues4[1] || '');
+          setLeftValue5(splittedValues5[0] || '');
+          setRightValue5(splittedValues5[1] || '');
+        }
+      }, [jsondata]);
+     
+    return (
+      <div style={containerStyle}>
+        <div style={groupContainerStyle}>
+        <div style={circleStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
+    <span>{leftValue1}</span>
+  )}</div>
+          <div style={rectStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
+    <span>{rightValue1}</span>
+  )}</div> 
         </div>
         <div style={arrowContainerStyle}>
-  <svg width="100" height="100">
-    <line x1="0" y1="90" x2="100" y2="90" stroke="black" />
-    <polygon points="95,85 100,90 95,95" fill="black" />
-  </svg>
-</div>
-      <div style={groupContainerStyle}>
-        <div style={circleStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[3] && (
-  <span>{jsondata.govSequence[3]}</span>
-)}</div>
-        <div style={rectStyle}>품계3</div>
-      </div>
-      <div style={arrowContainerStyle}>
-  <svg width="100" height="100">
-    <line x1="0" y1="90" x2="100" y2="90" stroke="black" />
-    <polygon points="95,85 100,90 95,95" fill="black" />
-  </svg>
-</div>
-      <div style={groupContainerStyle}>
-        <div style={circleStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[4] && (
-  <span>{jsondata.govSequence[4]}</span>
-)}</div>
-        <div style={rectStyle}>품계4</div>
-      </div>
-      <div style={arrowContainerStyle}>
-  <svg width="100" height="100">
-    <line x1="0" y1="90" x2="100" y2="90" stroke="black" />
-    <polygon points="95,85 100,90 95,95" fill="black" />
-  </svg>
-</div>
-      <div style={groupContainerStyle}>
-        <div style={circleStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[5] && (
-  <span>{jsondata.govSequence[5]}</span>
-)}</div>
-        <div style={rectStyle}>품계5</div>
-      </div>
-     
-    </div>
-  );
-}
-
-const containerStyle = {
-  display: 'flex',
-  justifyContent: 'center',
-  margin: '0',
-};
-
-const groupContainerStyle = {
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  margin: '0px',
-};
-
-const circleStyle = {
-  width: '150px',
-  height: '150px',
-  borderRadius: '50%',
-  backgroundColor: 'white',
-  border: '1px solid #000',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  margin: '20px',
-  fontSize: '24px',
-};
-
-const rectStyle = {
-  width: '110px',
-  height: '80px',
-  backgroundColor: 'white',
-  border: '1px solid #000',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  fontSize: '24px',
-  margin: '20px',
+    <svg width="100" height="100">
+      <line x1="0" y1="90" x2="100" y2="90" stroke="black" />
+      <polygon points="95,85 100,90 95,95" fill="black" />
+    </svg>
+  </div>
   
-};
-
-const arrowContainerStyle = {
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-};
-
+  <div style={groupContainerStyle}>
+        <div style={circleStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
+    <span>{leftValue2}</span>
+  )}</div>
+          <div style={rectStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
+    <span>{rightValue2}</span>
+  )}</div> 
+        </div>
+          <div style={arrowContainerStyle}>
+    <svg width="100" height="100">
+      <line x1="0" y1="90" x2="100" y2="90" stroke="black" />
+      <polygon points="95,85 100,90 95,95" fill="black" />
+    </svg>
+  </div>
+  <div style={groupContainerStyle}>
+        <div style={circleStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
+    <span>{leftValue3}</span>
+  )}</div>
+          <div style={rectStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
+    <span>{rightValue3}</span>
+  )}</div> 
+        </div>
+        <div style={arrowContainerStyle}>
+    <svg width="100" height="100">
+      <line x1="0" y1="90" x2="100" y2="90" stroke="black" />
+      <polygon points="95,85 100,90 95,95" fill="black" />
+    </svg>
+  </div>
+  <div style={groupContainerStyle}>
+        <div style={circleStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
+    <span>{leftValue4}</span>
+  )}</div>
+          <div style={rectStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
+    <span>{rightValue4}</span>
+  )}</div> 
+        </div>
+        <div style={arrowContainerStyle}>
+    <svg width="100" height="100">
+      <line x1="0" y1="90" x2="100" y2="90" stroke="black" />
+      <polygon points="95,85 100,90 95,95" fill="black" />
+    </svg>
+  </div>
+  <div style={groupContainerStyle}>
+        <div style={circleStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
+    <span>{leftValue5}</span>
+  )}</div>
+          <div style={rectStyle}>{jsondata && jsondata.govSequence && jsondata.govSequence[1] && (
+    <span>{rightValue5}</span>
+  )}</div> 
+        </div>
+       
+      </div>
+    );
+  }
+  
+  const containerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    margin: '0',
+  };
+  
+  const groupContainerStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    margin: '0px',
+  };
+  
+  const circleStyle = {
+    width: '170px',
+    height: '170px',
+    borderRadius: '50%',
+    backgroundColor: 'white',
+    border: '1px solid #000',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: '20px',
+    fontSize: '17px',
+    fontWeight: 'bold',
+    
+  };
+  
+  const rectStyle = {
+    width: 'auto',
+    height: '60px',
+    backgroundColor: 'white',
+    border: '1px solid #000',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '17px',
+    margin: '20px',
+    paddingLeft: '10px',
+    paddingRight: '10px'
+    
+  };
+  
+  const arrowContainerStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  };
+  
 
 
 function ExpandableComponent3() {
@@ -286,7 +338,7 @@ const ConvertButton = () => {
         style={{
           position: 'fixed',
           bottom: '20px',
-          right: '90px',
+          left: '20px',
           padding: '10px',
           fontSize: '16px',
           backgroundColor: '#333',
@@ -294,7 +346,7 @@ const ConvertButton = () => {
           border: 'none',
           borderRadius: '5px',
           cursor: 'pointer',
-          marginRight: '70px',
+          
         }}
         onClick={scrollToBottom}
       >

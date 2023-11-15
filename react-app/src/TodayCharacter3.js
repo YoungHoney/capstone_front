@@ -10,7 +10,7 @@ function TodayCharacter3() {
    
 
   useEffect(() => {
-      axios.get('/ancestor/3')
+      axios.get('/api/ancestor/3')
         .then((response) => {
           const jsondata = response.data;
           setJsonData(jsondata);

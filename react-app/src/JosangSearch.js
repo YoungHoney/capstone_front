@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 function ShapedButton({ text1, onClick }) {
   const buttonStyle1 = {
     width: '60px',
@@ -204,6 +205,11 @@ const buttons4 = ['이개(李塏)','이거원(李巨源)','이경전(李慶全)'
 
 
 
+
+
+
+
+
 function JosangSearch() {
 
   const clearSelectedButton1 = () => {
@@ -401,7 +407,7 @@ function JosangSearch() {
      {selectedButton1 === '- 반남박씨' && (
         <div style={containerStyle2}>
           {buttons1.map((a, index1) => (
-            <Link to={`/aancestor/real/${a}`} key={index1}>
+            <Link to={`/ancestor/real/${a}`} key={index1}>
             <button style={buttonStyle2}>
               {a}
             </button>
@@ -445,9 +451,10 @@ function JosangSearch() {
           ))}
         </div>
       )}
-
+ 
   {/* <JosangList/> */}
     </div>
+    
     
   );
 }
