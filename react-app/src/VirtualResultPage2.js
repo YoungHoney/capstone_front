@@ -114,7 +114,7 @@ function ExpandableComponent3() {
 
 const ConvertButton = () => {
   const handleButtonClick = () => {
-    window.location.href = 'http://3.39.127.44/api/ancestor/2/chat';
+    window.location.href = 'http://3.39.127.44:8080/api/ancestor/2/chat';
     scrollToTop();
   };
 
