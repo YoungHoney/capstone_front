@@ -29,50 +29,6 @@ function ShapedButton({ text1, onClick }) {
 
 
 
-// function JosangList() {
-//   const [selectedButton1, setSelectedButton1] = useState('');
-
-//   const buttons = ['1', '2', '3', '4', '김상집(金尙集)', '...'];
-//   const buttons1 = ['박세채(朴世采)'];
-//   const buttons2 = ['김상익(金尙翼)'];
-//   const buttons3 = ['권응수(權應銖)'];
-//   const buttons4 = ['이산해(李山海)'];
-
-//   const getButtonsBySelectedButton = () => {
-//     switch (selectedButton1) {
-//       case '1':
-//         return buttons1;
-//       case '2':
-//         return buttons2;
-//       case '- 안동권씨':
-//         return buttons3;
-//       case '4':
-//         return buttons4;
-//       // 나머지 case에 대한 처리 추가
-//       default:
-//         return buttons;
-//     }
-//   };
-
-//   const buttonsToShow = getButtonsBySelectedButton();
-
-//   return (
-//     <div style={containerStyle2}>
-//       {buttonsToShow.map((text2, index2) => (
-//         <Link to={`/ancestor/real/${text2}`} key={index2}>
-//           <button
-//             style={buttonStyle2}
-//             onClick={() => setSelectedButton1(text2)}
-//           >
-//             {text2}
-//           </button>
-//         </Link>
-//       ))}
-//     </div>
-//   );
-// }
-
-
 
 
 const containerStyle2 = {
@@ -97,10 +53,12 @@ const buttonStyle2 = {
 
 
 
-const names1 = ['- 강릉김씨','- 경주김씨','- 곡부공씨','- 광산김씨','- 김녕김씨',
-  '- 김해김씨','- 능성구씨','- 덕수김씨','- 봉화금씨','- 삼척김씨','- 상산김씨','- 선산김씨(일선계)','- 소주가씨',
-  '- 수안계씨','- 신천강씨','- 안동권씨','- 안동김씨(구안동)','- 안동김씨(신안동)','- 안산김씨','- 양근김씨','- 연안김씨',
-  '- 예천권씨','- 제주고씨','- 진주강씨','- 청주김씨','- 평해구씨','- 해평길씨','- 현풍곽씨','- 희천김씨',];
+const names1 = ['- 강릉김씨','- 경주김씨',,'- 광산김씨',,'- 김녕김씨','- 김해김씨','- 덕수김씨','- 삼척김씨','- 상산김씨','- 선산김씨','- 곡부공씨','- 안동김씨',
+'- 양근김씨','- 안산김씨','- 연안김씨','- 청주김씨','- 희천김씨',
+'- 의성김씨','- 청풍김씨','- 청도김씨','- 전주김씨','- 부안김씨','- 순천김씨','- 나주김씨','- 언양김씨','- 울산김씨','- 영광김씨','- 서흥김씨','- 함창김씨','- 광주김씨','- 도강김씨','- 개성김씨','- 진주김씨','- 금릉김씨','- 일성김씨','- 영산김씨','- 수원김씨','- 월성김씨','- 예안김씨','- 금산김씨','- 고령김씨','- 상주김씨','- 풍산김씨','- 고성김씨','- 원주김씨','- 용궁김씨','- 밀양김씨','- 해풍김씨','- 충주김씨','- 서산김씨','- 공주김씨','- 경산김씨',
+'- 능성구씨','- 봉화금씨','- 소주가씨',
+  '- 수안계씨','- 신천강씨','- 안동권씨',
+  '- 예천권씨','- 제주고씨','- 진주강씨','- 평해구씨','- 해평길씨','- 현풍곽씨',];
 
       const names2 = ['- 강화노씨','- 개성내씨','- 광주노씨','- 교동뇌씨','- 교하노씨',
       '- 금성나씨','- 나주나씨','- 나주내씨','- 만경노씨','- 밀양노씨','- 의령남씨','- 장연노씨','- 진주낭씨',
@@ -172,38 +130,6 @@ const buttonStyle3 = {
 };
 
 
-
-
-
-
-const buttons1 = ['박강(朴薑)','박곤(朴棍)','박기양(朴箕陽)','박대하(朴大夏)','박도원(朴道源)',
-'박동량(朴東亮)','박동선(朴東善)','박동현(朴東賢)','박두양(朴斗陽)','박맹지(朴孟智)',
-'박문영(朴文木英)','박병문(朴秉文)','박사유(朴師遊)','박사정(朴師正)','박사해(朴師海)',
-'박상철(朴相喆)','박성수(朴聖壽)','박세견(朴世堅)','박세채(朴世采)','박숭질(朴崇質)',
-'박시원(朴時源)','박종채(朴宗采)','박종훈(朴宗薰)','박주수(朴周壽)','박종보(朴宗輔)',
-'박태유(朴泰維)','박태휘(朴泰徽)','박필건(朴弼健)','박홍서(朴烘緖)','박효삼(朴孝參)'];
-
-const buttons2 = ['김상집(金尙集)', '김상철(金尙喆)', '김시습(金時習)', '김겸(金謙)', '김경의(金敬義)',
-'김계락(金啓洛)','김계하(金啓河)','김광진(金光軫)','김광철(金光轍)','김기종(金起宗)',
-'김노진(金魯鎭)','김담(金譚)','김대(金臺)','김몽호(金夢虎)','김사혁(金斯革)',
-'김상구(金尙耉)','김상규(金尙奎)','김상성(金尙星)','김상익(金尙翼)','김상적(金尙迪)',
-'김상중(金尙重)','김세행(金世行)', '김순명(金順命)', '김시위(金始煒)','김시징(金詩徵)',
- '김시혁(金始爀)', '김시형(金始炯)', '김시환(金始煥)','김양(金陽)', '김영관(金永寬)' ,
- '김영석(金永錫)', '김영윤(金永胤)', '김윤신(金潤身)', '김인존(金仁存)', '김진(金縝)',
-  '김진우(金振宇)', '김첨경(金添慶)', '김충렬(金忠烈)','김팔원(金八元)', '김행(金行)',
-   '김홍운(金鴻運)', '김화진(金華鎭)'];
-const buttons3 = ['권근(權近)','권부(權溥)','권제(權踶)','권감(權瑊)','권경우(權景祐)',
-'권규(權跬)','권극례(權克禮)','권고(權皐)','권극중(權克中)','권담(權湛)',
-'권대임(權大任)','권덕린(權德麟)','권동수(權東壽)','권문임(權文任)','권수평(權守平)',
-'권병덕(權秉悳)','권영만(權寧萬)','권왕후(權王煦)','권응수(權應銖)','권종해(權鍾海)',
-'권채(權採)','권철신(權哲身)','권치문(權致文)','권필칭(權必稱)','권확(權鑊)','권황(權愰)',
-'권희(權憘)','권희맹(權希孟)','권희인(權希仁)','권희학(權喜學)',];
-const buttons4 = ['이개(李塏)','이거원(李巨源)','이경전(李慶全)','이곡(李穀)',
-'이균(李均)','이기직(李基稷)','이대원(李大源)','이덕사(李德泗)','이동직(李東稷)',
-'이명연(李明淵)','이무(李袤)','이병태(李秉泰)','이사관(李思觀)','이상정(李象靖)',
-'이수경(李壽慶)','이수좌(李垂佐)','이산해(李山海)','이언식(李彦湜)','이연년(李延年)',
-'이용직(李容稙)','이윤영(李胤永)','이정기(李廷蘷)','이증(李增)','이청(李淸)',
-'이태영(李泰永)','이필중(李必重)','이형직(李亨稷)','이효문(李孝文)','이흥발(李興浡)'];
 
 
 
@@ -466,12 +392,6 @@ function JosangSearch() {
       </div>
       )}
 
-{selectedButton1 === '- 곡부공씨' && (
-        <div>
-        <YourComponent surname='곡부공씨'/>
-      </div>
-      )}
-
 {selectedButton1 === '- 광산김씨' && (
         <div>
         <YourComponent surname='광산김씨'/>
@@ -484,21 +404,9 @@ function JosangSearch() {
       </div>
       )}
 
-{selectedButton1 === '- 강릉김씨' && (
-        <div>
-        <YourComponent surname='김녕김씨'/>
-      </div>
-      )}
-
 {selectedButton1 === '- 김해김씨' && (
         <div>
         <YourComponent surname='김해김씨'/>
-      </div>
-      )}
-
-{selectedButton1 === '- 능성구씨' && (
-        <div>
-        <YourComponent surname='능성구씨'/>
       </div>
       )}
 
@@ -508,17 +416,18 @@ function JosangSearch() {
       </div>
       )}
 
-{selectedButton1 === '- 봉화금씨' && (
+{selectedButton1 === '- 삼척김씨' && (
         <div>
-        <YourComponent surname='봉화금씨'/>
+        <YourComponent surname='삼척김씨'/>
       </div>
       )}
 
-{selectedButton1 === '- 삼척김씨' && (
+{selectedButton1 === '- 성산김씨' && (
         <div>
         <YourComponent surname='성산김씨'/>
       </div>
       )}
+
 
 {selectedButton1 === '- 상산김씨' && (
         <div>
@@ -526,11 +435,290 @@ function JosangSearch() {
       </div>
       )}
 
-{selectedButton1 === '- 선산김씨(일선계)' && (
+{selectedButton1 === '- 선산김씨' && (
         <div>
-        <YourComponent surname='선산김씨(일선계)'/>
+        <YourComponent surname='선산김씨'/>
       </div>
       )}
+
+
+{selectedButton1 === '- 안동김씨' && (
+        <div>
+        <YourComponent surname='안동김씨'/>
+      </div>
+      )}
+
+
+
+{selectedButton1 === '- 양근김씨' && (
+        <div>
+        <YourComponent surname='양근김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 연안김씨' && (
+        <div>
+        <YourComponent surname='연안김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 안산김씨' && (
+        <div>
+        <YourComponent surname='안산김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 청주김씨' && (
+        <div>
+        <YourComponent surname='청주김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 희천김씨' && (
+        <div>
+        <YourComponent surname='희천김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 의성김씨' && (
+        <div>
+        <YourComponent surname='의성김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 청풍김씨' && (
+        <div>
+        <YourComponent surname='청풍김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 청도김씨' && (
+        <div>
+        <YourComponent surname='청도김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 전주김씨' && (
+        <div>
+        <YourComponent surname='전주김씨'/>
+      </div> 
+      )}
+
+{selectedButton1 === '- 부안김씨' && (
+        <div>
+        <YourComponent surname='부안김씨'/>
+      </div> 
+      )} 
+    
+{selectedButton1 === '- 순천김씨' && (
+        <div>
+        <YourComponent surname='순천김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 나주김씨' && (
+        <div>
+        <YourComponent surname='나주김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 언양김씨' && (
+        <div>
+        <YourComponent surname='언양김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 울산김씨' && (
+        <div>
+        <YourComponent surname='울산김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 영광김씨' && (
+        <div>
+        <YourComponent surname='영광김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 서흥김씨' && (
+        <div>
+        <YourComponent surname='서흥김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 함창김씨' && (
+        <div>
+        <YourComponent surname='함창김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 광주김씨' && (
+        <div>
+        <YourComponent surname='광주김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 도강김씨' && (
+        <div>
+        <YourComponent surname='도강김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 개성김씨' && (
+        <div>
+        <YourComponent surname='개성김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 진주김씨' && (
+        <div>
+        <YourComponent surname='진주김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 금릉김씨' && (
+        <div>
+        <YourComponent surname='금릉김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 일성김씨' && (
+        <div>
+        <YourComponent surname='일성김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 영산김씨' && (
+        <div>
+        <YourComponent surname='영산김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 수원김씨' && (
+        <div>
+        <YourComponent surname='수원김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 월성김씨' && (
+        <div>
+        <YourComponent surname='월성김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 예안김씨' && (
+        <div>
+        <YourComponent surname='예안김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 금산김씨' && (
+        <div>
+        <YourComponent surname='금산김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 고령김씨' && (
+        <div>
+        <YourComponent surname='고령김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 상주김씨' && (
+        <div>
+        <YourComponent surname='상주김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 풍산김씨' && (
+        <div>
+        <YourComponent surname='풍산김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 고성김씨' && (
+        <div>
+        <YourComponent surname='고성김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 원주김씨' && (
+        <div>
+        <YourComponent surname='원주김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 용궁김씨' && (
+        <div>
+        <YourComponent surname='용궁김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 밀양김씨' && (
+        <div>
+        <YourComponent surname='밀양김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 해풍김씨' && (
+        <div>
+        <YourComponent surname='해풍김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 충주김씨' && (
+        <div>
+        <YourComponent surname='충주김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 서산김씨' && (
+        <div>
+        <YourComponent surname='서산김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 공주김씨' && (
+        <div>
+        <YourComponent surname='공주김씨'/>
+      </div> 
+      )} 
+
+{selectedButton1 === '- 경산김씨' && (
+        <div>
+        <YourComponent surname='경산김씨'/>
+      </div> 
+      )} 
+
+
+
+
+
+      
+      
+{selectedButton1 === '- 곡부공씨' && (
+        <div>
+        <YourComponent surname='곡부공씨'/>
+      </div>
+      )}
+
+
+
+{selectedButton1 === '- 능성구씨' && (
+        <div>
+        <YourComponent surname='능성구씨'/>
+      </div>
+      )}
+
+
+
+{selectedButton1 === '- 봉화금씨' && (
+        <div>
+        <YourComponent surname='봉화금씨'/>
+      </div>
+      )}
+
+
 
 {selectedButton1 === '- 소주가씨' && (
         <div>
@@ -556,35 +744,6 @@ function JosangSearch() {
       </div>
       )}
 
-{selectedButton1 === '- 안동김씨(구안동)' && (
-        <div>
-        <YourComponent surname='안동김씨(구안동)'/>
-      </div>
-      )}
-
-{selectedButton1 === '- 안동김씨(신안동)' && (
-        <div>
-        <YourComponent surname='안동김씨(신안동)'/>
-      </div>
-      )}
-
-{selectedButton1 === '- 안산김씨' && (
-        <div>
-        <YourComponent surname='안산김씨'/>
-      </div>
-      )}
-
-{selectedButton1 === '- 양근김씨' && (
-        <div>
-        <YourComponent surname='양근김씨'/>
-      </div>
-      )}
-
-{selectedButton1 === '- 연안김씨' && (
-        <div>
-        <YourComponent surname='연안김씨'/>
-      </div>
-      )}
 
 {selectedButton1 === '- 예천권씨' && (
         <div>
@@ -604,11 +763,6 @@ function JosangSearch() {
       </div>
       )}
 
-{selectedButton1 === '- 청주김씨' && (
-        <div>
-        <YourComponent surname='청주김씨'/>
-      </div>
-      )}
 
 {selectedButton1 === '- 평해구씨' && (
         <div>
@@ -628,11 +782,6 @@ function JosangSearch() {
       </div>
       )}
 
-{selectedButton1 === '- 희천김씨' && (
-        <div>
-        <YourComponent surname='희천김씨'/>
-      </div>
-      )}
 
 
 

@@ -41,7 +41,7 @@ import RealExpandableComponent3 from './realexpandablecomponent3';
           if (name) {
             const encodedName = encodeURIComponent(name);
             console.log(encodedName)
-            axios.get(`api/ancestor/name/${encodedName}`)
+            axios.post(`api/search/${encodedName}`)
               .then((response) => {
                 const jsonconvert = response.data;
                 console.log('jsonconvert:', jsonconvert); // jsonconvert 값을 콘솔에 로깅
