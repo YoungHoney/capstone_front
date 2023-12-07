@@ -7,7 +7,7 @@ ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, 
 
 const RadarChartExample2 = () => {
   const [chartData, setChartData] = useState({
-    labels: ['통솔력', '무력', '지력', '정신력', '매력'],
+    labels: ['통솔력', '무력', '지력', '정치력', '매력'],
     datasets: [
       {
         label: '',

@@ -101,7 +101,7 @@ const Timeline3 = () => {
       >
          <div className="cross-point"></div>
         <div className="eventcontainer">
-          <p>적을적파</p>
+          <p>적을격파</p>
         </div>
       </div>
 
@@ -111,7 +111,7 @@ const Timeline3 = () => {
       >
          <div className="cross-point"></div>
         <div className="eventcontainer">
-          <p>적을적파</p>
+          <p>적을격파</p>
         </div>
       </div>
 

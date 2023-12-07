@@ -102,7 +102,7 @@ function FlowChart1() {
  
 
   useEffect(() => {
-      axios.get('/api/ancestor/1')
+      axios.get('/api/ancestor/name/김상익(金尙翼)')
         .then((response) => {
           const jsondata = response.data;
           setJsonData(jsondata);
@@ -301,6 +301,9 @@ function ExpandableComponent3() {
 
 
 const ConvertButton = () => {
+
+  
+
   const handleButtonClick = () => {
     window.location.href = 'http://3.39.127.44:8080/api/ancestor/1/chat';
     scrollToTop();
@@ -337,7 +340,6 @@ const ConvertButton = () => {
           border: 'none',
           borderRadius: '5px',
           cursor: 'pointer',
-          
           
         }}
         onClick={ handleButtonClick}

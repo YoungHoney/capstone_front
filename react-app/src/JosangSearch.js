@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+import RealResultPage from './RealResultPage';
 
 
 
@@ -120,7 +122,7 @@ const names1 = ['- 강릉김씨','- 경주김씨','- 곡부공씨','- 광산김�
       '- 보성선씨','- 부여서씨','- 비안손씨','- 삼척심씨','- 순창설씨','- 안동손씨','- 야성송씨','- 영산·영월신씨',
       '- 은진송씨','- 이천서씨','- 장성서씨','- 진주소씨','- 진청송씨','- 창녕성씨','- 청송심씨','- 충주·홍주석씨','- 태원선우씨','- 평산신씨'];
 
-const names8 = ['- 강릉유씨','- 경주이씨','- 광주이씨','- 기계유씨','- 나주임씨',
+const names8 = ['- 해평윤씨','- 강릉유씨','- 경주이씨','- 광주이씨','- 기계유씨','- 나주임씨',
       '- 남원양씨','- 덕수이씨','- 동복오씨','- 수안이씨','- 순흥안씨','- 영월엄씨','- 영천이씨','- 원주원씨',
       '- 장흥임씨','- 전의이씨','- 전주이씨','- 제주양씨','- 진보이씨','- 탐진안씨','- 파주염씨','- 파평윤씨','- 평택임씨(전객령계)','- 한산이씨','- 함양오씨','- 해남윤씨','- 해주오씨','- 홍천용씨',];
 
@@ -172,7 +174,7 @@ const buttonStyle3 = {
 
 
 
-const buttons = ['1', '2', '3', '4', '김상집(金尙集)', '...'];
+
 
 const buttons1 = ['박강(朴薑)','박곤(朴棍)','박기양(朴箕陽)','박대하(朴大夏)','박도원(朴道源)',
 '박동량(朴東亮)','박동선(朴東善)','박동현(朴東賢)','박두양(朴斗陽)','박맹지(朴孟智)',
@@ -206,6 +208,48 @@ const buttons4 = ['이개(李塏)','이거원(李巨源)','이경전(李慶全)'
 
 
 
+
+const YourComponent = ( {surname} ) => {
+  const [buttonsData, setButtonsData] = useState([]);
+  console.log(surname);
+  
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        if (surname) { // surname이 존재할 때만 API 호출
+          const encodedSurname = encodeURIComponent(surname);
+          const response = await axios.get(`api/search/clan/${encodedSurname}`);
+          const data = response.data._embedded?.hashMapList || [];
+          setButtonsData(data);
+        } else {
+          // surname이 존재하지 않을 때 처리할 내용 추가 가능
+        }
+      } catch (error) {
+        console.error('데이터를 불러오는 동안 오류가 발생했습니다:', error);
+      }
+    };
+    
+  
+
+    fetchData(surname);
+
+  }, [surname]);
+
+  return (
+    <div style={containerStyle2}>
+      {buttonsData.map((item, index) => (
+        <Link to={`/ancestor/real/${item.name}`} key={index}>
+          <button style={buttonStyle2}>
+            {item.name}
+          </button>
+        </Link>
+        
+      ))}
+      
+    </div>
+  );
+};
 
 
 
@@ -404,55 +448,1426 @@ function JosangSearch() {
           </button>
         </Link> */}
      
-     {selectedButton1 === '- 반남박씨' && (
-        <div style={containerStyle2}>
-          {buttons1.map((a, index1) => (
-            <Link to={`/ancestor/real/${a}`} key={index1}>
-            <button style={buttonStyle2}>
-              {a}
-            </button>
-            </Link>
-          ))}
-        </div>
+    
+
+
+
+  {/* ㄱ */}
+
+{selectedButton1 === '- 강릉김씨' && (
+        <div>
+        <YourComponent surname='강릉김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 경주김씨' && (
+        <div>
+        <YourComponent surname='경주김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 곡부공씨' && (
+        <div>
+        <YourComponent surname='곡부공씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 광산김씨' && (
+        <div>
+        <YourComponent surname='광산김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 김녕김씨' && (
+        <div>
+        <YourComponent surname='김녕김씨'/>
+      </div>
       )}
 
 {selectedButton1 === '- 강릉김씨' && (
-        <div style={containerStyle2}>
-          {buttons2.map((a, index1) => (
-             <Link to={`/ancestor/real/${a}`} key={index1}>
-             <button style={buttonStyle2}>
-               {a}
-             </button>
-             </Link>
-          ))}
-        </div>
+        <div>
+        <YourComponent surname='김녕김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 김해김씨' && (
+        <div>
+        <YourComponent surname='김해김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 능성구씨' && (
+        <div>
+        <YourComponent surname='능성구씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 덕수김씨' && (
+        <div>
+        <YourComponent surname='덕수김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 봉화금씨' && (
+        <div>
+        <YourComponent surname='봉화금씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 삼척김씨' && (
+        <div>
+        <YourComponent surname='성산김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 상산김씨' && (
+        <div>
+        <YourComponent surname='상산김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 선산김씨(일선계)' && (
+        <div>
+        <YourComponent surname='선산김씨(일선계)'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 소주가씨' && (
+        <div>
+        <YourComponent surname='소주가씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 수안계씨' && (
+        <div>
+        <YourComponent surname='수안계씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 신천강씨' && (
+        <div>
+        <YourComponent surname='신천강씨'/>
+      </div>
       )}
 
 {selectedButton1 === '- 안동권씨' && (
-        <div style={containerStyle2}>
-          {buttons3.map((a, index1) => (
-            <Link to={`/ancestor/real/${a}`} key={index1}>
-            <button style={buttonStyle2}>
-              {a}
-            </button>
-            </Link>
-          ))}
-        </div>
+        <div>
+        <YourComponent surname='안동권씨'/>
+      </div>
       )}
 
-     {selectedButton1 === '- 한산이씨' && (
-        <div style={containerStyle2}>
-          {buttons4.map((a, index1) => (
-             <Link to={`/ancestor/real/${a}`} key={index1}>
-             <button style={buttonStyle2}>
-               {a}
-             </button>
-             </Link>
-          ))}
-        </div>
+{selectedButton1 === '- 안동김씨(구안동)' && (
+        <div>
+        <YourComponent surname='안동김씨(구안동)'/>
+      </div>
       )}
+
+{selectedButton1 === '- 안동김씨(신안동)' && (
+        <div>
+        <YourComponent surname='안동김씨(신안동)'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 안산김씨' && (
+        <div>
+        <YourComponent surname='안산김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 양근김씨' && (
+        <div>
+        <YourComponent surname='양근김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 연안김씨' && (
+        <div>
+        <YourComponent surname='연안김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 예천권씨' && (
+        <div>
+        <YourComponent surname='예천권씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 제주고씨' && (
+        <div>
+        <YourComponent surname='제주고씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 진주강씨' && (
+        <div>
+        <YourComponent surname='진주강씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 청주김씨' && (
+        <div>
+        <YourComponent surname='청주김씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 평해구씨' && (
+        <div>
+        <YourComponent surname='평해구씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 해평길씨' && (
+        <div>
+        <YourComponent surname='해평길씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 현풍곽씨' && (
+        <div>
+        <YourComponent surname='현풍곽씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 희천김씨' && (
+        <div>
+        <YourComponent surname='희천김씨'/>
+      </div>
+      )}
+
+
+
+{/* ㄴ */}
+
+
+{selectedButton1 === '- 강화노씨' && (
+        <div>
+        <YourComponent surname='강화노씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 개성내씨' && (
+        <div>
+        <YourComponent surname='개성내씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 광주노씨' && (
+        <div>
+        <YourComponent surname='광주노씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 교동뇌씨' && (
+        <div>
+        <YourComponent surname='교동뇌씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 교하노씨' && (
+        <div>
+        <YourComponent surname='교하노씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 금성나씨' && (
+        <div>
+        <YourComponent surname='금성나씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 나주나씨' && (
+        <div>
+        <YourComponent surname='나주나씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 나주내씨' && (
+        <div>
+        <YourComponent surname='나주내씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 만경노씨' && (
+        <div>
+        <YourComponent surname='만경노씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 밀양노씨' && (
+        <div>
+        <YourComponent surname='밀양노씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 의령남씨' && (
+        <div>
+        <YourComponent surname='의령남씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 장연노씨' && (
+        <div>
+        <YourComponent surname='장연노씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 진주낭씨' && (
+        <div>
+        <YourComponent surname='진주낭씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 함열남궁씨' && (
+        <div>
+        <YourComponent surname='함열남궁씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 함평노씨' && (
+        <div>
+        <YourComponent surname='함평노씨'/>
+      </div>
+      )}
+
+
+{/* ㄷ */}
+
+
+{selectedButton1 === '- 강음단씨' && (
+        <div>
+        <YourComponent surname='강음단씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 광천동씨' && (
+        <div>
+        <YourComponent surname='광천동씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 남원독고씨' && (
+        <div>
+        <YourComponent surname='남원독고씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 대산대씨' && (
+        <div>
+        <YourComponent surname='대산대씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 두릉두씨' && (
+        <div>
+        <YourComponent surname='두릉두씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 성주도씨' && (
+        <div>
+        <YourComponent surname='성주도씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 연안단씨' && (
+        <div>
+        <YourComponent surname='연안단씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 진주동방씨' && (
+        <div>
+        <YourComponent surname='진주동방씨'/>
+      </div>
+      )}
+
+
+{/* ㄹ */}
+
+
+
+{selectedButton1 === '- 고흥류씨' && (
+        <div>
+        <YourComponent surname='고흥류씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 문화류씨' && (
+        <div>
+        <YourComponent surname='문화류씨'/>
+      </div>
+      )}
+
+
+
+
+{/* ㅁ */}
+
+
+{selectedButton1 === '- 감천문씨' && (
+        <div>
+        <YourComponent surname='감천문씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 강화만씨' && (
+        <div>
+        <YourComponent surname='강화만씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 남평문씨' && (
+        <div>
+        <YourComponent surname='남평문씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 목천·장흥마씨' && (
+        <div>
+        <YourComponent surname='목천·장흥마씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 사천목씨' && (
+        <div>
+        <YourComponent surname='사천목씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 상곡마씨' && (
+        <div>
+        <YourComponent surname='상곡마씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 서촉·연안명씨' && (
+        <div>
+        <YourComponent surname='서촉·연안명씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 신창맹씨' && (
+        <div>
+        <YourComponent surname='신창맹씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 여흥민씨' && (
+        <div>
+        <YourComponent surname='여흥민씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 정선문씨' && (
+        <div>
+        <YourComponent surname='정선문씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 함평모씨' && (
+        <div>
+        <YourComponent surname='함평모씨'/>
+      </div>
+      )}
+
+
+
+
+{/* ㅂ */}
+
+
+
+
+{selectedButton1 === '- 강릉박씨' && (
+        <div>
+        <YourComponent surname='강릉박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 고령박씨' && (
+        <div>
+        <YourComponent surname='고령박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 구산박씨' && (
+        <div>
+        <YourComponent surname='구산박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 군위박씨' && (
+        <div>
+        <YourComponent surname='군위박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 노성박씨' && (
+        <div>
+        <YourComponent surname='노성박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 면천박씨' && (
+        <div>
+        <YourComponent surname='면천박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 무안박씨' && (
+        <div>
+        <YourComponent surname='무안박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 문의박씨' && (
+        <div>
+        <YourComponent surname='문의박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 밀양박씨' && (
+        <div>
+        <YourComponent surname='밀양박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 반남박씨' && (
+        <div>
+        <YourComponent surname='반남박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 사천박씨' && (
+        <div>
+        <YourComponent surname='사천박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 성산배씨' && (
+        <div>
+        <YourComponent surname='성산배씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 수원백씨' && (
+        <div>
+        <YourComponent surname='수원백씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 영암박씨' && (
+        <div>
+        <YourComponent surname='영암박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 온양방씨' && (
+        <div>
+        <YourComponent surname='온양방씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 운봉박씨' && (
+        <div>
+        <YourComponent surname='운봉박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 울산박씨' && (
+        <div>
+        <YourComponent surname='울산박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 원주변씨' && (
+        <div>
+        <YourComponent surname='원주변씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 음성박씨' && (
+        <div>
+        <YourComponent surname='음성박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 의흥박씨' && (
+        <div>
+        <YourComponent surname='의흥박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 죽산박씨' && (
+        <div>
+        <YourComponent surname='죽산박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 진원박씨' && (
+        <div>
+        <YourComponent surname='진원박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 초계·밀양변씨' && (
+        <div>
+        <YourComponent surname='초계·밀양변씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 춘천박씨' && (
+        <div>
+        <YourComponent surname='춘천박씨'/>
+      </div>
+      )}
+      
+{selectedButton1 === '- 충주박씨' && (
+        <div>
+        <YourComponent surname='충주박씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 하음봉씨' && (
+        <div>
+        <YourComponent surname='하음봉씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 함양박씨' && (
+        <div>
+        <YourComponent surname='함양박씨'/>
+      </div>
+      )}
+
+
+
+
+{/* ㅅ */}
+
+
+{selectedButton1 === '- 거창신씨' && (
+        <div>
+        <YourComponent surname='거창신씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 고령신씨' && (
+        <div>
+        <YourComponent surname='고령신씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 달성서씨' && (
+        <div>
+        <YourComponent surname='달성서씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 대구서씨' && (
+        <div>
+        <YourComponent surname='대구서씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 밀양손씨' && (
+        <div>
+        <YourComponent surname='밀양손씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 보성선씨' && (
+        <div>
+        <YourComponent surname='보성선씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 부여서씨' && (
+        <div>
+        <YourComponent surname='부여서씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 비안손씨' && (
+        <div>
+        <YourComponent surname='비안손씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 삼척심씨' && (
+        <div>
+        <YourComponent surname='삼척심씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 순창설씨' && (
+        <div>
+        <YourComponent surname='순창설씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 안동손씨' && (
+        <div>
+        <YourComponent surname='안동손씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 야성송씨' && (
+        <div>
+        <YourComponent surname='야성송씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 영산·영월신씨' && (
+        <div>
+        <YourComponent surname='영산·영월신씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 은진송씨' && (
+        <div>
+        <YourComponent surname='은진송씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 이천서씨' && (
+        <div>
+        <YourComponent surname='이천서씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 장성서씨' && (
+        <div>
+        <YourComponent surname='장성서씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 진주소씨' && (
+        <div>
+        <YourComponent surname='진주소씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 진천송씨' && (
+        <div>
+        <YourComponent surname='진천송씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 창녕성씨' && (
+        <div>
+        <YourComponent surname='창녕성씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 청송심씨' && (
+        <div>
+        <YourComponent surname='청송심씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 충주·홍주석씨' && (
+        <div>
+        <YourComponent surname='충주·홍주석씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 태원선우씨' && (
+        <div>
+        <YourComponent surname='태원선우씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 평산신씨' && (
+        <div>
+        <YourComponent surname='평산신씨'/>
+      </div>
+      )}
+
+
+{/* ㅇ */}
+
+
+{selectedButton1 === '- 해평윤씨' && (
+        <div>
+        <YourComponent surname='해평윤씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 강릉유씨' && (
+        <div>
+        <YourComponent surname='강릉유씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 경주이씨' && (
+        <div>
+        <YourComponent surname='경주이씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 광주이씨' && (
+        <div>
+        <YourComponent surname='광주이씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 기계유씨' && (
+        <div>
+        <YourComponent surname='기계유씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 나주임씨' && (
+        <div>
+        <YourComponent surname='나주임씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 남원양씨' && (
+        <div>
+        <YourComponent surname='남원양씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 덕수이씨' && (
+        <div>
+        <YourComponent surname='덕수이씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 동복오씨' && (
+        <div>
+        <YourComponent surname='동복오씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 수안이씨' && (
+        <div>
+        <YourComponent surname='수안이씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 순흥안씨' && (
+        <div>
+        <YourComponent surname='순흥안씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 영월엄씨' && (
+        <div>
+        <YourComponent surname='열월엄씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 영천이씨' && (
+        <div>
+        <YourComponent surname='영천이씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 원주원씨' && (
+        <div>
+        <YourComponent surname='원주원씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 장흥임씨' && (
+        <div>
+        <YourComponent surname='장흥임씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 전의이씨' && (
+        <div>
+        <YourComponent surname='전의이씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 전주이씨' && (
+        <div>
+        <YourComponent surname='전주이씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 제주양씨' && (
+        <div>
+        <YourComponent surname='제주양씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 진보이씨' && (
+        <div>
+        <YourComponent surname='진보이씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 탐진안씨' && (
+        <div>
+        <YourComponent surname='탐진안씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 파주염씨' && (
+        <div>
+        <YourComponent surname='파주염씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 파평윤씨' && (
+        <div>
+        <YourComponent surname='파평윤씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 평택임씨(전객령계)' && (
+        <div>
+        <YourComponent surname='평택임씨(전객령계)'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 한산이씨' && (
+        <div>
+        <YourComponent surname='한산이씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 함양오씨' && (
+        <div>
+        <YourComponent surname='함양오씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 해남윤씨' && (
+        <div>
+        <YourComponent surname='해남윤씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 해주오씨' && (
+        <div>
+        <YourComponent surname='홍천용씨'/>
+      </div>
+      )}
+
+
+
+
+
+
+{/* ㅈ */}
+
+
+{selectedButton1 === '- 경주정씨' && (
+        <div>
+        <YourComponent surname='경주정씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 광동진씨' && (
+        <div>
+        <YourComponent surname='광동진씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 구례장씨' && (
+        <div>
+        <YourComponent surname='구례장씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 담양전씨' && (
+        <div>
+        <YourComponent surname='담양전씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 동래정씨' && (
+        <div>
+        <YourComponent surname='동래정씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 봉산·봉주지씨' && (
+        <div>
+        <YourComponent surname='봉산·봉주지씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 신안주씨' && (
+        <div>
+        <YourComponent surname='신안주씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 안동장씨' && (
+        <div>
+        <YourComponent surname='안동장씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 여양진씨' && (
+        <div>
+        <YourComponent surname='여양진씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 영일정씨' && (
+        <div>
+        <YourComponent surname='영일정씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 옥천전씨' && (
+        <div>
+        <YourComponent surname='옥천전씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 인동장씨(장계계)' && (
+        <div>
+        <YourComponent surname='인동장씨(장계계)'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 인동장씨(장금용계)' && (
+        <div>
+        <YourComponent surname='인동장씨(장금용계)'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 정선전씨' && (
+        <div>
+        <YourComponent surname='정선전씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 진주정씨' && (
+        <div>
+        <YourComponent surname='진주정씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 창녕조씨' && (
+        <div>
+        <YourComponent surname='창녕조씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 초계정씨' && (
+        <div>
+        <YourComponent surname='초계정씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 충주지씨' && (
+        <div>
+        <YourComponent surname='충주지씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 평양조씨' && (
+        <div>
+        <YourComponent surname='평양조씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 평택전씨' && (
+        <div>
+        <YourComponent surname='평택전씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 풍기정씨' && (
+        <div>
+        <YourComponent surname='풍기정씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 하동정씨' && (
+        <div>
+        <YourComponent surname='하동정씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 한양조씨' && (
+        <div>
+        <YourComponent surname='한양조씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 함안조씨' && (
+        <div>
+        <YourComponent surname='함안조씨'/>
+      </div>
+      )}
+
+
+
+
+
+
+{/* ㅊ */}
+
+{selectedButton1 === '- 간성최씨' && (
+        <div>
+        <YourComponent surname='간성최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 강릉최씨' && (
+        <div>
+        <YourComponent surname='강릉최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 개성최씨' && (
+        <div>
+        <YourComponent surname='개성최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 경주최씨' && (
+        <div>
+        <YourComponent surname='경주최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 낭주최씨' && (
+        <div>
+        <YourComponent surname='낭주최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 동주최씨' && (
+        <div>
+        <YourComponent surname='동주최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 밀양최씨' && (
+        <div>
+        <YourComponent surname='밀양최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 부안최씨' && (
+        <div>
+        <YourComponent surname='부안최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 상주최씨' && (
+        <div>
+        <YourComponent surname='상주최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 수성최씨' && (
+        <div>
+        <YourComponent surname='수성최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 양주최씨' && (
+        <div>
+        <YourComponent surname='양주최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 연안차씨' && (
+        <div>
+        <YourComponent surname='연안차씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 연안차씨' && (
+        <div>
+        <YourComponent surname='연안차씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 영양천씨' && (
+        <div>
+        <YourComponent surname='영양천씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 용궁최씨' && (
+        <div>
+        <YourComponent surname='용궁최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 전주최씨' && (
+        <div>
+        <YourComponent surname='전주최씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 추계추씨' && (
+        <div>
+        <YourComponent surname='추계추씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 통천최씨' && (
+        <div>
+        <YourComponent surname='통천최씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 평강채씨' && (
+        <div>
+        <YourComponent surname='평강채씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 해주최씨' && (
+        <div>
+        <YourComponent surname='해주최씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 화순최씨' && (
+        <div>
+        <YourComponent surname='화순최씨'/>
+      </div>
+      )}
+
+
+
+
+
+{/* ㅍ */}
+
+{selectedButton1 === '- 괴산피씨' && (
+        <div>
+        <YourComponent surname='괴산피씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 신창표씨' && (
+        <div>
+        <YourComponent surname='신창표씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 임구풍씨' && (
+        <div>
+        <YourComponent surname='임구풍씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 절강팽씨' && (
+        <div>
+        <YourComponent surname='절강팽씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 절강편씨' && (
+        <div>
+        <YourComponent surname='절간평씨'/>
+      </div>
+      )}
+
+
+
+
+
+{/* ㅌ */}
+
+
+{selectedButton1 === '- 광산탁씨' && (
+        <div>
+        <YourComponent surname='광산탁씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 영순태씨' && (
+        <div>
+        <YourComponent surname='영순태씨'/>
+      </div>
+      )}
+
+
+{selectedButton1 === '- 협계태씨' && (
+        <div>
+        <YourComponent surname='협계태씨'/>
+      </div>
+      )}
+
+
+
+
+
+
+{/* ㅎ */}
+
+
+{selectedButton1 === '- 강릉·양근함씨' && (
+        <div>
+        <YourComponent surname='강릉·양근함씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 곡산한씨' && (
+        <div>
+        <YourComponent surname='곡산한씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 김해허씨' && (
+        <div>
+        <YourComponent surname='김해허씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 남양홍씨(당홍계)' && (
+        <div>
+        <YourComponent surname='남양홍씨(당홍계)'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 남양홍씨(토홍계)' && (
+        <div>
+        <YourComponent surname='남양홍씨(토홍계)'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 덕산황씨' && (
+        <div>
+        <YourComponent surname='덕산황씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 부계홍씨' && (
+        <div>
+        <YourComponent surname='부계홍씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 신평·보안·나주호씨' && (
+        <div>
+        <YourComponent surname='신평·보안·나주호씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 양천허씨' && (
+        <div>
+        <YourComponent surname='양천허씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 연주현씨' && (
+        <div>
+        <YourComponent surname='연주현씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 영천황보씨' && (
+        <div>
+        <YourComponent surname='영천황보씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 우주황씨' && (
+        <div>
+        <YourComponent surname='우주황씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 장수황씨' && (
+        <div>
+        <YourComponent surname='장수황씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 제안황씨' && (
+        <div>
+        <YourComponent surname='제안황씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 진주하씨' && (
+        <div>
+        <YourComponent surname='진주하씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 진주형씨' && (
+        <div>
+        <YourComponent surname='진주형씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 창원황씨' && (
+        <div>
+        <YourComponent surname='창원황씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 청주한씨' && (
+        <div>
+        <YourComponent surname='청주한씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 파릉호씨' && (
+        <div>
+        <YourComponent surname='파릉호씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 평해황씨' && (
+        <div>
+        <YourComponent surname='평해황씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 홍주홍씨' && (
+        <div>
+        <YourComponent surname='홍주홍씨'/>
+      </div>
+      )}
+
+{selectedButton1 === '- 회덕황씨' && (
+        <div>
+        <YourComponent surname='회덕황씨'/>
+      </div>
+      )}
+
+
+
+
+
+
+
+
  
-  {/* <JosangList/> */}
+  
     </div>
     
     

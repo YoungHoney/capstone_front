@@ -93,7 +93,7 @@ function ExpandableComponent3() {
   return (
     <div >
       <button onClick={toggleExpand} style={buttonStyle}>
-      <span style={{ fontSize: '24px',}}>오각형능력치는?</span>
+      <span style={{ fontSize: '24px',}}>조상님의 스텟은?</span>
         <svg
           width="16"
           height="16"

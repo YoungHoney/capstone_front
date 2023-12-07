@@ -1,9 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState ,useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import JosangSearch from './JosangSearch';
 import { Route,Routes,Router, BrowserRouter } from 'react-router-dom';
 import MyBarChart from './abilitychart';
+import image1 from './img/image1.png';
+import image2 from './img/image2.png';
+import image3 from './img/image3.png';
+import image4 from './img/image4.png';
+import './SlideShow.css';
+
+
+
+
+
+
 
 function SearchContainer() {
 
@@ -60,6 +71,14 @@ function SearchContainer() {
 
   };
 
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      navigate(`/ancestor/real/${searchText}`);
+    }
+  };
+
+
+
   const textStyle = {
     fontWeight: 'bold', // 굵기 조절
     fontFamily: 'Arial, sans-serif', // 글씨체 조절
@@ -74,6 +93,7 @@ function SearchContainer() {
         placeholder="이순신(李舜臣)"
         value={searchText}
         onChange={handleSearchChange}
+        onKeyPress={handleKeyPress}
         style={inputStyle}
       />
       <button onClick={handleSearchClick} style={buttonStyle}>
@@ -144,6 +164,8 @@ function Home() {
     
      <MyComponent></MyComponent>
      <SearchContainer></SearchContainer>
+
+    
      
      
 
