@@ -8,7 +8,7 @@ import RealResultPage from './RealResultPage';
 import VirtualResultPage from './VirtualResultPage';
 
 
-axios.defaults.baseURL = 'http://localhost:8080'; 
+axios.defaults.baseURL = 'http://3.39.127.44:8080'; 
 
 const NotFound = () => {
   return (

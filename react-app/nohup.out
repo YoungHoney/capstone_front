@@ -1,0 +1,1670 @@
+
+> react-app@0.1.0 start
+> export PORT=3000 && react-scripts start
+
+[HPM] Proxy created: /  -> http://3.39.127.44:8080
+[HPM] Proxy created: /  -> http://3.39.127.44:8080
+[HPM] Proxy created: /  -> http://3.39.127.44:8080
+[HPM] Proxy created: /  -> http://3.39.127.44:8080
+[HPM] Proxy created: /  -> http://3.39.127.44:8080
+(node:1357) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1357) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view react-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.31.38.141:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Compiled with warnings.
+
+[eslint] 
+src/App.js
+  Line 3:23:  'Router' is defined but never used         no-unused-vars
+  Line 3:36:  'BrowserRouter' is defined but never used  no-unused-vars
+
+src/Home.js
+  Line 4:8:   'JosangSearch' is defined but never used        no-unused-vars
+  Line 5:10:  'Route' is defined but never used               no-unused-vars
+  Line 5:16:  'Routes' is defined but never used              no-unused-vars
+  Line 5:23:  'Router' is defined but never used              no-unused-vars
+  Line 5:31:  'BrowserRouter' is defined but never used       no-unused-vars
+  Line 62:9:  'textStyle' is assigned a value but never used  no-unused-vars
+
+src/JosangSearch.js
+  Line 174:7:  'buttons' is assigned a value but never used  no-unused-vars
+
+src/RealResultPage1.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 9:10:   'useNavigate' is defined but never used                                                                    no-unused-vars
+  Line 343:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage2.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage3.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage4.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter1.js
+  Line 27:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter2.js
+  Line 27:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter3.js
+  Line 27:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter4.js
+  Line 25:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti1.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti2.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti3.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti4.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 3:23:  'Router' is defined but never used         no-unused-vars
+  Line 3:36:  'BrowserRouter' is defined but never used  no-unused-vars
+
+src/Home.js
+  Line 4:8:   'JosangSearch' is defined but never used        no-unused-vars
+  Line 5:10:  'Route' is defined but never used               no-unused-vars
+  Line 5:16:  'Routes' is defined but never used              no-unused-vars
+  Line 5:23:  'Router' is defined but never used              no-unused-vars
+  Line 5:31:  'BrowserRouter' is defined but never used       no-unused-vars
+  Line 62:9:  'textStyle' is assigned a value but never used  no-unused-vars
+
+src/JosangSearch.js
+  Line 174:7:  'buttons' is assigned a value but never used  no-unused-vars
+
+src/RealResultPage1.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 9:10:   'useNavigate' is defined but never used                                                                    no-unused-vars
+  Line 343:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage2.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage3.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage4.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter1.js
+  Line 27:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter2.js
+  Line 27:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter3.js
+  Line 27:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter4.js
+  Line 25:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti1.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti2.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti3.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti4.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.js
+  Line 3:23:  'Router' is defined but never used         no-unused-vars
+  Line 3:36:  'BrowserRouter' is defined but never used  no-unused-vars
+
+src/Home.js
+  Line 4:8:   'JosangSearch' is defined but never used        no-unused-vars
+  Line 5:10:  'Route' is defined but never used               no-unused-vars
+  Line 5:16:  'Routes' is defined but never used              no-unused-vars
+  Line 5:23:  'Router' is defined but never used              no-unused-vars
+  Line 5:31:  'BrowserRouter' is defined but never used       no-unused-vars
+  Line 62:9:  'textStyle' is assigned a value but never used  no-unused-vars
+
+src/JosangSearch.js
+  Line 174:7:  'buttons' is assigned a value but never used  no-unused-vars
+
+src/RealResultPage1.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 9:10:   'useNavigate' is defined but never used                                                                    no-unused-vars
+  Line 343:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage2.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage3.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage4.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter1.js
+  Line 27:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter2.js
+  Line 27:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter3.js
+  Line 27:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter4.js
+  Line 25:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti1.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti2.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti3.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti4.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 3:23:  'Router' is defined but never used         no-unused-vars
+  Line 3:36:  'BrowserRouter' is defined but never used  no-unused-vars
+
+src/Home.js
+  Line 4:8:   'JosangSearch' is defined but never used        no-unused-vars
+  Line 5:10:  'Route' is defined but never used               no-unused-vars
+  Line 5:16:  'Routes' is defined but never used              no-unused-vars
+  Line 5:23:  'Router' is defined but never used              no-unused-vars
+  Line 5:31:  'BrowserRouter' is defined but never used       no-unused-vars
+  Line 62:9:  'textStyle' is assigned a value but never used  no-unused-vars
+
+src/JosangSearch.js
+  Line 174:7:  'buttons' is assigned a value but never used  no-unused-vars
+
+src/RealResultPage1.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 9:10:   'useNavigate' is defined but never used                                                                    no-unused-vars
+  Line 343:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage2.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage3.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/RealResultPage4.js
+  Line 1:10:   'Route' is defined but never used                                                                          no-unused-vars
+  Line 1:16:   'Routes' is defined but never used                                                                         no-unused-vars
+  Line 330:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter1.js
+  Line 27:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter2.js
+  Line 27:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter3.js
+  Line 27:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/TodayCharacter4.js
+  Line 25:9:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti1.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti2.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti3.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/mbti4.js
+  Line 68:7:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
+
+> react-app@0.1.0 start
+> export PORT=3000 && react-scripts start
+
+[HPM] Proxy created: /  -> http://3.39.127.44:8080
+(node:9063) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:9063) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view react-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.31.38.141:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+
+> react-app@0.1.0 start
+> export PORT=3000 && react-scripts start
+
+Something is already running on port 3000.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph3.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph3.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph3.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph4.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph3.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph4.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
+
+> react-app@0.1.0 start
+> export PORT=3000 && react-scripts start
+
+[HPM] Proxy created: /  -> http://3.39.127.44:8080
+(node:10639) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:10639) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view react-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.31.38.141:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Compiled with warnings.
+
+[eslint] 
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+
+> react-app@0.1.0 start
+> export PORT=3000 && react-scripts start
+
+Something is already running on port 3000.
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+
+> react-app@0.1.0 start
+> export PORT=3000 && react-scripts start
+
+[HPM] Proxy created: /  -> http://3.39.127.44:8080
+(node:1215) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1215) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view react-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.31.38.141:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> react-app@0.1.0 start
+> export PORT=3000 && react-scripts start
+
+Something is already running on port 3000.
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while proxying request 3.39.127.44:3000/api/ancestor/1 to http://3.39.127.44:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+
+> react-app@0.1.0 start
+> export PORT=3000 && react-scripts start
+
+Something is already running on port 3000.
+
+> react-app@0.1.0 start
+> export PORT=3000 && react-scripts start
+
+Something is already running on port 3000.
+
+> react-app@0.1.0 start
+> export PORT=3000 && react-scripts start
+
+Something is already running on port 3000.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph3.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph4.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph3.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph4.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './img/ENTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+WARNING in [eslint] 
+src/Home.js
+  Line 1:27:  'useEffect' is defined but never used           no-unused-vars
+  Line 4:8:   'JosangSearch' is defined but never used        no-unused-vars
+  Line 5:10:  'Route' is defined but never used               no-unused-vars
+  Line 5:16:  'Routes' is defined but never used              no-unused-vars
+  Line 5:23:  'Router' is defined but never used              no-unused-vars
+  Line 5:31:  'BrowserRouter' is defined but never used       no-unused-vars
+  Line 6:8:   'MyBarChart' is defined but never used          no-unused-vars
+  Line 7:8:   'image1' is defined but never used              no-unused-vars
+  Line 8:8:   'image2' is defined but never used              no-unused-vars
+  Line 9:8:   'image3' is defined but never used              no-unused-vars
+  Line 10:8:  'image4' is defined but never used              no-unused-vars
+  Line 82:9:  'textStyle' is assigned a value but never used  no-unused-vars
+
+src/JosangSearch.js
+  Line 4:8:    'RealResultPage' is defined but never used     no-unused-vars
+  Line 179:7:  'buttons1' is assigned a value but never used  no-unused-vars
+  Line 186:7:  'buttons2' is assigned a value but never used  no-unused-vars
+  Line 195:7:  'buttons3' is assigned a value but never used  no-unused-vars
+  Line 201:7:  'buttons4' is assigned a value but never used  no-unused-vars
+
+src/RealResultPage.js
+  Line 202:31:  Expected '===' and instead saw '=='  eqeqeq
+
+src/Timeline.js
+  Line 1:27:    'useEffect' is defined but never used  no-unused-vars
+  Line 54:131:  Expected '===' and instead saw '=='    eqeqeq
+  Line 54:168:  Expected '===' and instead saw '=='    eqeqeq
+  Line 60:131:  Expected '===' and instead saw '=='    eqeqeq
+  Line 66:134:  Expected '===' and instead saw '=='    eqeqeq
+  Line 72:102:  Expected '!==' and instead saw '!='    eqeqeq
+  Line 79:102:  Expected '!==' and instead saw '!='    eqeqeq
+
+src/TodayCharacter.js
+  Line 48:84:   Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 108:11:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+src/abilitygraph.js
+  Line 1:17:  'useState' is defined but never used   no-unused-vars
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+  Line 2:8:   'axios' is defined but never used      no-unused-vars
+
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph3.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph4.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/josangimage.js
+  Line 8:108:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 9:11:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 17:11:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/simpleintroduction.js
+  Line 42:85:  Unexpected whitespace before property clanid  no-whitespace-before-property
+
+ERROR in ./src/mbti.js 4:0-35
+Module not found: Error: Can't resolve './img/ENTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 5:0-35
+Module not found: Error: Can't resolve './img/ESTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 6:0-35
+Module not found: Error: Can't resolve './img/ENFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 7:0-35
+Module not found: Error: Can't resolve './img/ENTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 8:0-35
+Module not found: Error: Can't resolve './img/ESTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 9:0-35
+Module not found: Error: Can't resolve './img/ESFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 10:0-35
+Module not found: Error: Can't resolve './img/ESFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 11:0-35
+Module not found: Error: Can't resolve './img/ISTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 12:0-35
+Module not found: Error: Can't resolve './img/ENFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 13:0-35
+Module not found: Error: Can't resolve './img/INFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 14:0-35
+Module not found: Error: Can't resolve './img/INFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 15:0-35
+Module not found: Error: Can't resolve './img/ISTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 16:0-35
+Module not found: Error: Can't resolve './img/ISFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 17:0-35
+Module not found: Error: Can't resolve './img/INTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 18:0-35
+Module not found: Error: Can't resolve './img/INTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 19:0-35
+Module not found: Error: Can't resolve './img/ISFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+webpack compiled with 16 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './img/ENTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+WARNING in [eslint] 
+src/Home.js
+  Line 1:27:  'useEffect' is defined but never used           no-unused-vars
+  Line 4:8:   'JosangSearch' is defined but never used        no-unused-vars
+  Line 5:10:  'Route' is defined but never used               no-unused-vars
+  Line 5:16:  'Routes' is defined but never used              no-unused-vars
+  Line 5:23:  'Router' is defined but never used              no-unused-vars
+  Line 5:31:  'BrowserRouter' is defined but never used       no-unused-vars
+  Line 6:8:   'MyBarChart' is defined but never used          no-unused-vars
+  Line 7:8:   'image1' is defined but never used              no-unused-vars
+  Line 8:8:   'image2' is defined but never used              no-unused-vars
+  Line 9:8:   'image3' is defined but never used              no-unused-vars
+  Line 10:8:  'image4' is defined but never used              no-unused-vars
+  Line 82:9:  'textStyle' is assigned a value but never used  no-unused-vars
+
+src/JosangSearch.js
+  Line 4:8:    'RealResultPage' is defined but never used     no-unused-vars
+  Line 179:7:  'buttons1' is assigned a value but never used  no-unused-vars
+  Line 186:7:  'buttons2' is assigned a value but never used  no-unused-vars
+  Line 195:7:  'buttons3' is assigned a value but never used  no-unused-vars
+  Line 201:7:  'buttons4' is assigned a value but never used  no-unused-vars
+
+src/RealResultPage.js
+  Line 202:31:  Expected '===' and instead saw '=='  eqeqeq
+
+src/Timeline.js
+  Line 1:27:    'useEffect' is defined but never used  no-unused-vars
+  Line 54:131:  Expected '===' and instead saw '=='    eqeqeq
+  Line 54:168:  Expected '===' and instead saw '=='    eqeqeq
+  Line 60:131:  Expected '===' and instead saw '=='    eqeqeq
+  Line 66:134:  Expected '===' and instead saw '=='    eqeqeq
+  Line 72:102:  Expected '!==' and instead saw '!='    eqeqeq
+  Line 79:102:  Expected '!==' and instead saw '!='    eqeqeq
+
+src/TodayCharacter.js
+  Line 48:84:   Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 108:11:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+src/abilitygraph.js
+  Line 1:17:  'useState' is defined but never used   no-unused-vars
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+  Line 2:8:   'axios' is defined but never used      no-unused-vars
+
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph3.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph4.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/josangimage.js
+  Line 8:108:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 9:11:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 17:11:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/simpleintroduction.js
+  Line 42:85:  Unexpected whitespace before property clanid  no-whitespace-before-property
+
+ERROR in ./src/mbti.js 4:0-35
+Module not found: Error: Can't resolve './img/ENTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 5:0-35
+Module not found: Error: Can't resolve './img/ESTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 6:0-35
+Module not found: Error: Can't resolve './img/ENFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 7:0-35
+Module not found: Error: Can't resolve './img/ENTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 8:0-35
+Module not found: Error: Can't resolve './img/ESTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 9:0-35
+Module not found: Error: Can't resolve './img/ESFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 10:0-35
+Module not found: Error: Can't resolve './img/ESFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 11:0-35
+Module not found: Error: Can't resolve './img/ISTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 12:0-35
+Module not found: Error: Can't resolve './img/ENFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 13:0-35
+Module not found: Error: Can't resolve './img/INFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 14:0-35
+Module not found: Error: Can't resolve './img/INFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 15:0-35
+Module not found: Error: Can't resolve './img/ISTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 16:0-35
+Module not found: Error: Can't resolve './img/ISFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 17:0-35
+Module not found: Error: Can't resolve './img/INTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 18:0-35
+Module not found: Error: Can't resolve './img/INTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 19:0-35
+Module not found: Error: Can't resolve './img/ISFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+webpack compiled with 16 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './img/ENTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+WARNING in [eslint] 
+src/Home.js
+  Line 1:27:  'useEffect' is defined but never used           no-unused-vars
+  Line 4:8:   'JosangSearch' is defined but never used        no-unused-vars
+  Line 5:10:  'Route' is defined but never used               no-unused-vars
+  Line 5:16:  'Routes' is defined but never used              no-unused-vars
+  Line 5:23:  'Router' is defined but never used              no-unused-vars
+  Line 5:31:  'BrowserRouter' is defined but never used       no-unused-vars
+  Line 6:8:   'MyBarChart' is defined but never used          no-unused-vars
+  Line 7:8:   'image1' is defined but never used              no-unused-vars
+  Line 8:8:   'image2' is defined but never used              no-unused-vars
+  Line 9:8:   'image3' is defined but never used              no-unused-vars
+  Line 10:8:  'image4' is defined but never used              no-unused-vars
+  Line 82:9:  'textStyle' is assigned a value but never used  no-unused-vars
+
+src/JosangSearch.js
+  Line 4:8:    'RealResultPage' is defined but never used     no-unused-vars
+  Line 179:7:  'buttons1' is assigned a value but never used  no-unused-vars
+  Line 186:7:  'buttons2' is assigned a value but never used  no-unused-vars
+  Line 195:7:  'buttons3' is assigned a value but never used  no-unused-vars
+  Line 201:7:  'buttons4' is assigned a value but never used  no-unused-vars
+
+src/RealResultPage.js
+  Line 202:31:  Expected '===' and instead saw '=='  eqeqeq
+
+src/Timeline.js
+  Line 1:27:    'useEffect' is defined but never used  no-unused-vars
+  Line 54:131:  Expected '===' and instead saw '=='    eqeqeq
+  Line 54:168:  Expected '===' and instead saw '=='    eqeqeq
+  Line 60:131:  Expected '===' and instead saw '=='    eqeqeq
+  Line 66:134:  Expected '===' and instead saw '=='    eqeqeq
+  Line 72:102:  Expected '!==' and instead saw '!='    eqeqeq
+  Line 79:102:  Expected '!==' and instead saw '!='    eqeqeq
+
+src/TodayCharacter.js
+  Line 48:84:   Expected '===' and instead saw '=='                                                                        eqeqeq
+  Line 108:11:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/VirtualResultPage1.js
+  Line 7:8:  'RadarChart' is defined but never used  no-unused-vars
+
+src/abilitygraph.js
+  Line 1:17:  'useState' is defined but never used   no-unused-vars
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+  Line 2:8:   'axios' is defined but never used      no-unused-vars
+
+src/abilitygraph1.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph2.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph3.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/abilitygraph4.js
+  Line 55:6:  React Hook useEffect has a missing dependency: 'chartData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/josangimage.js
+  Line 8:108:  Expected '!==' and instead saw '!='                                                                        eqeqeq
+  Line 9:11:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 17:11:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/simpleintroduction.js
+  Line 42:85:  Unexpected whitespace before property clanid  no-whitespace-before-property
+
+ERROR in ./src/mbti.js 4:0-35
+Module not found: Error: Can't resolve './img/ENTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 5:0-35
+Module not found: Error: Can't resolve './img/ESTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 6:0-35
+Module not found: Error: Can't resolve './img/ENFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 7:0-35
+Module not found: Error: Can't resolve './img/ENTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 8:0-35
+Module not found: Error: Can't resolve './img/ESTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 9:0-35
+Module not found: Error: Can't resolve './img/ESFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 10:0-35
+Module not found: Error: Can't resolve './img/ESFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 11:0-35
+Module not found: Error: Can't resolve './img/ISTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 12:0-35
+Module not found: Error: Can't resolve './img/ENFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 13:0-35
+Module not found: Error: Can't resolve './img/INFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 14:0-35
+Module not found: Error: Can't resolve './img/INFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 15:0-35
+Module not found: Error: Can't resolve './img/ISTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 16:0-35
+Module not found: Error: Can't resolve './img/ISFJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 17:0-35
+Module not found: Error: Can't resolve './img/INTJ.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 18:0-35
+Module not found: Error: Can't resolve './img/INTP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+ERROR in ./src/mbti.js 19:0-35
+Module not found: Error: Can't resolve './img/ISFP.jpeg' in '/home/ubuntu/cau/front/haha/capstone_front/react-app/src'
+
+webpack compiled with 16 errors and 1 warning
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
